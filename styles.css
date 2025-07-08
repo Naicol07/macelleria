@@ -271,6 +271,10 @@ section {
   margin-top: 0.2rem;
 }
 
+.info-item div p {
+  white-space: nowrap;
+}
+
 .info-item a {
   color: #333333; /* Grigio scuro per i link */
   text-decoration: none;
