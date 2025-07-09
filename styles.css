@@ -569,6 +569,11 @@ section {
 /* Responsive Design */
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  .hero {
+    padding-top: 170px; /* Regola se necessario per schermi molto piccoli */
+  }
+
   .nav-toggle {
     display: flex;
     z-index: 1001;
@@ -737,6 +742,11 @@ section {
 }
 
 @media (max-width: 480px) {
+
+  .hero {
+    padding-top: 170px; /* Regola se necessario per schermi molto piccoli */
+  }
+  
   .container {
     padding: 0 15px;
   }
